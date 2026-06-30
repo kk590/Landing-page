@@ -145,6 +145,20 @@
       color: var(--paper);
       text-decoration: none;
       opacity: .85;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nav-logo img {
+      height: 120px;
+      width: auto;
+      opacity: 0.95;
+      transition: opacity .3s;
+    }
+
+    .nav-logo:hover img {
+      opacity: 1;
     }
 
     .nav-logo strong {
@@ -1220,7 +1234,7 @@
 
   <!-- NAV -->
   <nav id="nav">
-    <a href="#" class="nav-logo"><strong>RK</strong></a>
+    <a href="#" class="nav-logo"><img src="rk-logo.png" alt="RK Logo"></a>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#services">Services</a></li>
